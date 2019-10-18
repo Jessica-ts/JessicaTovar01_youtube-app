@@ -1,0 +1,66 @@
+*{
+	box-sizing: border-box;
+}
+
+header{
+	padding-top: 4px;
+	border: 4px solid rgb(215, 0, 20);
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 4px;
+}
+
+header > span.logo{
+	display:block;
+	flex-direction: row;
+	margin-left: 35%;
+}
+
+
+body {
+  font-family: "Roboto", sans-serif;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  
+}
+
+.YT_btn{
+	background-color: #E50000;
+	color: #FFFFFF;
+	border-radius: 6px;
+	width: 80px;
+	padding: 8px 12px;
+	
+}
+
+form{
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+
+#Field-search{
+	border: solid rgb(0, 159, 191);
+}
+
+
+#Prev_btn, #Next_btn{
+	display: none;
+}
+
+section > div.video{
+	
+	padding-left: 5px;
+	border-bottom: hidden;
+	padding-bottom: 3%;
+
+}
+
+section{
+	border: hidden;
+}
+
+div{
+	padding-top: 15px;
+}
+
+
